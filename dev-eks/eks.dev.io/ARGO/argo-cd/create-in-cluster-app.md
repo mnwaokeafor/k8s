@@ -16,7 +16,7 @@ spec:
   source:
     repoURL: https://github.com/mnwaokeafor/k8s.git
     targetRevision: HEAD
-    path: ARGO/example-app
+    path: dev-eks/eks.dev.io/ARGO/argo-cd/app.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: myke
